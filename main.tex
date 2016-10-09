@@ -1,37 +1,5 @@
-\documentclass{scrreprt}
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[english]{babel}
-% \usepackage[frenchb]{babel}
-% \usepackage[ngerman]{babel}
-
-\KOMAoptions{
-    BCOR = 7mm, % absolute value of binding correction
-    DIV = default, % number of stripes the page is divided into, possible values: [6,15]
-    draft = true, % true marks over- and underfulls with black boxes
-    headinclude = false, % true if head should be included in type are calculation, default false
-    % headheight = 10cm, % header height, alternative to headlines
-    headlines = 1.25, % number of head lines, 1.25 default
-    footinclude = false, % true if foot should be included in type are calculation, default false
-    % footheight = 10cm, % foot height, alternative to footlines
-    footlines = 1.25, % number of foot lines, 1.25 default
-    mpinclude = false, % true if margin-note area is counted as part of text body, default false
-    paper = a4, % paper format for internal LaTeX lengths
-    pagesize = auto, % output driver
-    fontsize = 12pt, % font size for document
-    titlepage = true, % true of title page should be on separate page
-    twocolumn = false, % should be used before DIV for good type area calculation
-    twoside = true, % determines whether document is the be typeset double-sided
-}
-
-\usepackage{blindtext}
-\blindmathtrue
-
-\author{John Doé}
-\title{Document Title}
-\date{\today}
-
+\documentclass{scrbook}
+\input{inputs/_preamble}
 
 \begin{document}
 
